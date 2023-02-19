@@ -1,4 +1,3 @@
 #!/bin/sh
-#
 
-rsync -av --delete cpan-rsync.perl.org::CPAN /data/CPAN/
+rsync -a --delete cpan-rsync.perl.org::CPAN /data/CPAN/
